@@ -1,98 +1,153 @@
-# 🔄 DATA FLOW — MUNDUS LABS
+# MUNDUS LAB — DATA FLOW
 
-Der Datenfluss von MUNDUS LABS beschreibt alle Schritte, mit denen Rohwissen in strukturierte Module, Beziehungen und neue technische Kombinationen umgewandelt wird.
+Dieses Dokument beschreibt den vollständigen Datenfluss innerhalb von MUNDUS.  
+Er zeigt, wie aus unstrukturiertem Rohwissen validierte Steine, Wissensbeziehungen, technische Systeme und analysierbare Konstruktionen entstehen.
 
-## 1. Input Layer – Rohdaten
+Der Datenfluss folgt streng der Reihenfolge:
+**Input → Parsing → Zerlegung → Validierung → Graph → Sandbox → HRM → Output**
 
-Quellen:
-- Patentdatenbanken
-- Forschungspapiere
-- technische Dokumentationen
-- historische Technologien
-- Zeichnungen & Diagramme
-- Labornotizen und Versuchsberichte
+---
 
-Ziel: Möglichst viel technisches Wissen in Rohform erfassen.
+## 1. Input Layer — Rohdaten
 
-## 2. Parsing Layer – Strukturieren
+Quellen für technische Inhalte:
+- Patente  
+- Forschungspapiere  
+- technische Dokumentationen  
+- historische Mechanismen  
+- Zeichnungen & Diagramme  
+- Laborberichte  
 
-Methoden:
-- OCR für gescannte Dokumente
-- Claim- und Abschnittsextraktion
-- Textklassifikation (Bereich, Funktion, Prinzip)
-- Entitätenerkennung (Bauteile, Prozesse, Materialien)
-- semantische Chunking-Algorithmen
+Ziel: Möglichst viel technisches Wissen in unverarbeiteter Form erfassen.  
+(Hinweis: *Rohdaten werden nie direkt in den Graph übernommen.*)
 
-Ziel: Rohtext in analysierbare Einheiten zerlegen.
+---
 
-## 3. Decomposition Layer – Modulbildung
-
-Aus jedem technischen Element wird ein Modul nach MMF-Standard:
-
-ID:
-Kategorie:
-Funktion:
-Prinzip:
-Inputs:
-Outputs:
-Dependencies:
-Beschreibung:
-Beispiele:
-Quellen:
-
-Ziel: Alle technischen Prinzipien in kleinste kombinierbare Einheiten überführen.
-
-## 4. Graph Layer – Wissen vernetzen
-
-Speichert:
-- Module
-- Beziehungen
-- Alternativen
-- historische Ableitungen
-- widersprüchliche Designs
-
-Zentrale Beziehungstypen:
-- funktioniert mit
-- benötigt
-- ersetzt
-- erweitert
-- basiert auf
-- widerspricht
-
-Ziel: Ein globaler technischer Wissensgraph.
-
-## 5. Sandbox Layer – Kombination & Simulation
+## 2. Parsing Layer — Vorstrukturierung des Textes
 
 Funktionen:
-- Module kombinieren
-- neue Designs erzeugen
-- technische Machbarkeit prüfen
-- Optimierungen vorschlagen
-- Varianten explorieren
+- OCR (falls Dokumente gescannt sind)  
+- Segmentierung in Abschnitte  
+- Extraktion technischer Aussagen  
+- Erkennung von Bauteilen, Prinzipien, Mechanismen  
+- Chunking in logisch getrennte Textblöcke  
 
-Ziel: Erfinden durch Kombinieren.
+Ziel: Rohtext in analysierbare Einheiten zerlegen, die für die Zerlegung vorbereitet sind.  
+(Hinweis: *Dies erzeugt noch keine Steine.*)
 
-## 6. HRM Layer – Menschliche Bewertung
+---
 
-Bewertet:
-- Relevanz
-- Kreativität
-- Eleganz
-- ethische Verträglichkeit
-- technische Integrität
+## 3. Decomposition Layer — Roh-Steine erzeugen
 
-Ziel: KI steuern, damit sie menschlich sinnvoll kombiniert.
+Für jedes identifizierte technische Fragment wird ein **Roh-Stein** erstellt mit:
+- vermuteter Kategorie (funktion, prinzip, mechanismus, input, output, constraint, dependency, combinability)  
+- vorläufiger Zusammenfassung  
+- rudimentären Beziehungen  
+- Quellenangabe  
+- Version: `0.1.0`  
 
-## 7. Output Layer
+Ziel: Sämtliches Wissen in atomare technische Aussagen aufteilen.  
+(Hinweis: *Roh-Steine sind NIE graphfähig.*)
 
-Erzeugt:
-- neue technische Module
-- Systemdesigns
-- Graph-Visualisierungen
-- technische Berichte
-- Vergleichsanalysen
-- Erfindungsvorschläge
+---
+
+## 4. Validation Layer — Steinvalidierung
+
+Nutzer korrigiert:
+- Kategorie  
+- summary  
+- details  
+- requirements  
+- results  
+- Beziehungen (nur gültige Typen: nutzt, basiert_auf, teil_von, alternative_zu, erweitert, ersetzt, verlangt, erzeugt)  
+- Quelle  
+
+Nach Abschluss erhält der Stein:
+- Version `1.0.0`  
+- Status „validiert“  
+
+Ziel: Aus Roh-Steinen werden gültige Steine.
+
+---
+
+## 5. Graph Layer — Wissen strukturieren
+
+Der Wissensgraph speichert:
+- alle validierten Steine  
+- alle gültigen Beziehungen  
+- thematische Cluster  
+- Funktionsketten  
+- alternative Mechanismen  
+- Hierarchien technischer Systeme  
+
+Erlaubte Beziehungen:
+- nutzt  
+- basiert_auf  
+- teil_von  
+- alternative_zu  
+- erweitert  
+- ersetzt  
+- verlangt  
+- erzeugt  
+
+Ziel: Ein globaler, sauber definierter technischer Wissensgraph.
+
+---
+
+## 6. Sandbox Layer — Analyse & Kombination
+
+Sandbox verwendet NUR validierte Steine.
+
+Funktionen:
+- Kompatibilität prüfen  
+- Konflikte erkennen  
+- alternative Mechanismen vorschlagen  
+- Lücken identifizieren  
+- funktionale Pfade analysieren  
+- einfache Optimierungen berechnen  
+
+Ziel: Nutzer beim Kombinieren, Analysieren und Verbessern technischer Systeme unterstützen.  
+(Hinweis: *Sandbox erzeugt keine neuen Steine.*)
+
+---
+
+## 7. HRM Layer — Lernen aus Nutzersignalen
+
+HRM erhält:
+- Korrektursignale  
+- Annahme-/Ablehnungssignale  
+- Systembau-Muster  
+- Navigationspfade  
+
+HRM beeinflusst:
+- Priorisierung von Vorschlägen  
+- Qualität der Zerlegung  
+- Relevanz von Alternativen  
+- Gewichtung technischer Pfade  
+
+Ziel: Die Qualität des Systems durch echtes menschliches Verhalten verbessern.  
+(Hinweis: *HRM ändert nie Wissen, nur Gewichtungen.*)
+
+---
+
+## 8. Output Layer — Nutzbare Ergebnisse
+
+Aus dem gesamten Pipeline-Prozess entstehen:
+
+- validierte Steine  
+- graphbare Wissensstrukturen  
+- Systemmodelle  
+- Sandbox-Analysen  
+- technische Vergleiche  
+- Optimierungsvorschläge  
+- vollständige Funktionsketten  
+- visuelle Graphdarstellungen  
+
+Ziel: Aus Rohwissen werden nutzbare technische Strukturen, mit denen Menschen arbeiten, vergleichen, erfinden und optimieren können.
+
+---
 
 ## TL;DR
 
-Wissen rein → zerlegen → Module → Graph → Sandbox → neue Technik raus.
+**Rohwissen rein → Parsing → Roh-Steine → Validierung → Wissensgraph → Sandbox → HRM → Klarheit & neue technische Möglichkeiten raus.**
+

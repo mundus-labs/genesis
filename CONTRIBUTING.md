@@ -1,102 +1,172 @@
-🤝 CONTRIBUTING — MUNDUS LABS
+# MUNDUS LAB — CONTRIBUTING GUIDE
 
-Danke, dass du zu MUNDUS LABS beitragen möchtest!
-Dieses Projekt lebt davon, dass Menschen weltweit Wissen teilen, Module bauen, Systeme testen und neue Ideen einbringen.
+Danke, dass du zu MUNDUS LAB beitragen möchtest!  
+Dieses Projekt lebt von präzisem Wissen, klaren Strukturen und gemeinsamer technischer Arbeit.  
+Diese Anleitung erklärt, wie du korrekt beitragen kannst, ohne die Integrität des Systems zu gefährden.
 
-1. Wie du beitragen kannst
+---
 
-Module erstellen (nach MMF-Format)
+# 1. Arten von Beiträgen
 
-Module verbessern
+Du kannst beitragen, indem du:
 
-Graph-Beziehungen ergänzen
+- Roh-Steine aus Patenten/Papern extrahierst  
+- Steine validierst (MMF-Konformität sicherstellen)  
+- präzise Beziehungen zwischen Steinen einbringst  
+- bestehende Steine verbesserst (summary, details, relations)  
+- Lücken im Wissensgraph identifizierst  
+- Research-Analysen erstellst  
+- Dokumentation ergänzt  
+- Fehler meldest oder Inkonsistenzen aufzeigst  
 
-Forschung und technische Erkenntnisse beitragen
+**Wichtig:**  
+Sandbox erzeugt nichts — daher können keine „Sandbox-Kreationen“ eingereicht werden.
 
-Sandbox-Kreationen teilen
+---
 
-Fehler melden
+# 2. Repository-Struktur
 
-Dokumentation erweitern
+- **concepts/**  
+  Basiswissen, fundamentale technische Steine
 
-2. Repository-Struktur
+- **research/**  
+  Analysen, Zerlegungen, Patentstudien, Roh-Steine
 
-concepts/ → Grundkonzepte & Basis-Module
+- **meta/**  
+  Systemdefinitionen, Steinformat, Graphregeln, Architektur
 
-research/ → technische Analysen & Papers
+- **plan/**  
+  Das vollständige Projekt-Framework (nur Maintainers bearbeiten)
 
-meta/ → Formatdefinitionen & Systembeschreibung
+Keine anderen Ordner dürfen ohne Zustimmung hinzugefügt werden.
 
-3. Module erstellen (MMF-Format)
+---
 
-Ein Modul folgt diesem Schema:
+# 3. Steine erstellen (MMF-Format)
 
-ID:
-Kategorie:
-Funktion:
-Prinzip:
-Inputs:
-Outputs:
-Dependencies:
-Beschreibung:
-Beispiele:
-Quellen:
+Ein Stein folgt strikt dem offiziellen Steinformat:
 
-4. Workflow für Beiträge
+- **title**  
+- **type:** funktion | prinzip | mechanismus | input | output | constraint | dependency | combinability  
+- **summary**  
+- **details** (optional)  
+- **requirements**  
+- **results**  
+- **relations** (nur erlaubte Typen)  
+- **source**  
+- **version**
 
-Schritt 1: Repository forken
-Schritt 2: Neuen Branch erstellen
-Schritt 3: Modul oder Änderung hinzufügen
-Schritt 4: Commit mit klarer Message
-Schritt 5: Pull Request öffnen
-Schritt 6: Review durch Maintainers
-Schritt 7: Merge bei Zustimmung
+**Roh-Steine:**  
+Version `0.1.0`, unvalidiert, nicht graphfähig.
 
-5. Qualitätsstandards
+**Validierte Steine:**  
+Version `1.0.0`, dürfen in den Graph.
 
-wissenschaftlich korrekt
+---
 
-verständlich
+# 4. Beziehungen hinzufügen
 
-modulare Struktur
+Erlaubte Beziehungstypen:
 
-Quellen angegeben
+- **nutzt**  
+- **basiert_auf**  
+- **teil_von**  
+- **alternative_zu**  
+- **erweitert**  
+- **ersetzt**  
+- **verlangt**  
+- **erzeugt**
 
-nur neutrale Beschreibungen → keine Patentverletzungen
+Alle anderen Typen sind verboten.
 
-keine geschützten Bilder oder Texte
+Beziehungen müssen:
 
-6. Was wir nicht akzeptieren
+- logisch zwingend sein  
+- eindeutig begründet werden  
+- keine Kreise erzeugen  
+- nicht spekulativ sein  
 
-Plagiate
+---
 
-patentverletzende Inhalte
+# 5. Workflow für Beiträge
 
-politische oder religiöse Inhalte
+1. Repository **forken**  
+2. **Neuen Branch** anlegen  
+3. Steine, Korrekturen oder Dokumentation hinzufügen  
+4. Commit mit klarer Message  
+5. Pull Request erstellen  
+6. Review durch Maintainers  
+7. Merge nach Zustimmung  
+8. Steinversionen und CHANGELOG aktualisieren (falls relevant)
 
-Werbung
+PR muss enthalten:
 
-private Daten
+- Zweck der Änderung  
+- klare Begründung  
+- Quelle (wenn Stein)  
+- Hinweis auf betroffene Dateien  
 
-geschlossene Datenformate
+---
 
-7. Hilfe & Support
+# 6. Qualitätsstandards
+
+Beiträge müssen:
+
+- technisch korrekt  
+- klar und präzise  
+- vollständig nachvollziehbar  
+- neutral formuliert  
+- quellenbelegt  
+- im MUNDUS-Format geschrieben  
+- frei von Spekulation sein
+
+Nicht akzeptiert wird:
+
+- Vermischung mehrerer Aussagen in einem Stein  
+- erfundene Mechanismen oder Prinzipien  
+- nicht erlaubte Beziehungstypen  
+- falsche Kategorien  
+- persönliche Meinungen oder Interpretationen  
+- politischer oder ideologischer Inhalt  
+- Patentverletzungen  
+- Upload von geschützten Daten  
+
+---
+
+# 7. Was wir nicht akzeptieren
+
+- Plagiate oder kopierte Patentinhalte  
+- Upload von nicht lizenzierbarem Material  
+- erfundene technische Inhalte  
+- spekulative Funktionsannahmen  
+- unzulässige Steinformate  
+- Rückbau des Systems in Richtung „autonomer KI“  
+- Missbrauch der Sandbox  
+- Spam oder Werbung  
+- Schädigende oder gefährliche Inhalte  
+- Manipulation von HRM-Signalen  
+
+---
+
+# 8. Hilfe & Support
 
 Du kannst jederzeit:
 
-Issues eröffnen
+- Issues eröffnen  
+- Fragen stellen  
+- Diskussionen starten  
+- Forschungsvorschläge einreichen  
+- Inkonsistenzen melden  
 
-Fragen stellen
+Maintainers unterstützen dich beim korrekt mundus-konformen Arbeiten.
 
-Diskussionen starten
+---
 
-Ideen oder Vorschläge einreichen
+# TL;DR
 
-Gemeinsam bauen wir eine offene Wissensinfrastruktur.
+**Steine, nicht Module.  
+Keine Spekulation.  
+Nur erlaubte Beziehungen.  
+Fork → Branch → Änderung → PR → Review → Merge.  
+Gemeinsam bauen wir ein präzises technisches Weltwissen.**
 
-TL;DR
-
-Fork → Branch → Änderung → Pull Request → Review → Merge
-
-Commit Message:
-Add CONTRIBUTING.md

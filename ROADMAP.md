@@ -1,117 +1,160 @@
-# 🛣️ ROADMAP — MUNDUS LABS
+# MUNDUS LAB — ROADMAP
 
-Diese Roadmap beschreibt die Entwicklungsphasen von MUNDUS LABS:  
-von der Genesis bis zur globalen offenen Wissensinfrastruktur.
-
----
-
-## Phase 1 — Genesis (Woche 1–4)
-**Ziel:** Fundament und Identität setzen.
-
-- Organisation erstellen  
-- Genesis-Repository vorbereiten  
-- README, Vision, Principles, Architecture definieren  
-- Ordnerstruktur anlegen (concepts/, research/, meta/)  
-- Kommunikationskanäle einrichten  
-- Genesis-Logo und visuelle Identität entwerfen  
-
-Ergebnis:  
-Ein stabiles Fundament, das Contributor sofort verstehen.
+Diese Roadmap beschreibt die Entwicklung von MUNDUS vom Ausgangspunkt der Genesis  
+bis zum stabilen technischen Wissenssystem.  
+Sie orientiert sich an klaren, deterministischen Bausteinen und folgt den Prinzipien  
+von Struktur, Validierung, Transparenz und technischer Klarheit.
 
 ---
 
-## Phase 2 — Knowledge Core (Monat 2–3)
-**Ziel:** Rohwissen erfassen und standardisieren.
+# Phase 1 — Genesis (Struktur & Fundament)
 
-- ersten Patent-Parser implementieren  
-- MMF (Mundus Module Format) verfeinern  
-- 10–20 Beispielmodule erstellen  
-- Knowledge Graph Grundstruktur aufsetzen  
-- API für Module und Graph definieren  
-- Tools für Parsing, Zerlegung, Klassifikation
+Ziele:
+- Kernidee definieren  
+- Projektstruktur anlegen  
+- Systemprinzipien formulieren  
+- Plan-Verzeichnis erstellen  
+- Steinformat (MMF) festlegen  
+- Architektur- und Governance-Dokumente erstellen  
 
-Ergebnis:  
-Wissen wird maschinenlesbar und modular.
-
----
-
-## Phase 3 — Graph & AI Integration (Monat 4–6)
-**Ziel:** Module miteinander verbinden.
-
-- Beziehungen & Graph-Klassen definieren  
-- Neo4j/TypeDB Integration  
-- Vektorspeicher für semantische Suche  
-- HRM-Prototyp entwickeln  
-- Kombinationserkennung & Vorschlags-Engine  
-- Sandbox-Prototyp: einfache Modul-Ketten generieren
-
-Ergebnis:  
-MUNDUS LABS erkennt Zusammenhänge.
+Ergebnis:
+Ein vollständig beschriebenes Fundament, das klare technische Leitplanken besitzt.
 
 ---
 
-## Phase 4 — Sandbox v1 (Monat 7–10)
-**Ziel:** Erstes spielbares System.
+# Phase 2 — Minimum Viable Mundus (MVM)
 
-- visuelle Sandbox-Oberfläche  
-- Module ziehen, verbinden, simulieren  
-- automatische Vorschläge aus KI  
-- Machbarkeitsanalyse  
-- Export/Teilen von Sandbox-Projekten  
-- Community-Feedback sammeln
+Ziele:
+- Roh-Steinerzeugung (Parsing → Decomposition)  
+- Validierungsworkflow implementieren  
+- erstes Steinformat in Software abbilden  
+- Graph-Basisschicht erstellen  
+- erste Sandbox-Funktionen (Kompatibilität, Konflikterkennung)  
+- HRM-Basis: Erfassung menschlicher Korrektursignale  
 
-Ergebnis:  
-Die Welt kann zum ersten Mal „spielen“.
-
----
-
-## Phase 5 — Global Opening (Monat 11–12)
-**Ziel:** MUNDUS LABS öffentlich starten.
-
-- Contributor-Guides  
-- Dokumentation aller APIs  
-- Public Graph API  
-- Universitäten einladen  
-- Wettbewerbe / Challenges  
-- Beta für Schulen und Lernplattformen
-
-Ergebnis:  
-Ein globaler Spielplatz für Wissen entsteht.
+Ergebnis:
+Das System ist erstmals nutzbar – es kann Rohwissen verarbeiten, Steine validieren und Strukturen erstellen.
 
 ---
 
-## Phase 6 — Expansion (Jahr 2–3)
-**Ziel:** Tiefere wissenschaftliche Integration.
+# Phase 3 — Stabiler Wissensgraph
 
-- physikalische, chemische, biologische Module  
-- Maschinenbau-Module  
-- historische Technologien rekonstruieren  
-- automatische Diagramm-Analyse  
-- KI zum Erfinden neuer Module  
-- Peer-Review-System
+Ziele:
+- Graph-Konsistenzprüfungen  
+- Beziehungstypen implementieren  
+- Clusterbildung  
+- thematische Navigation  
+- erste Werkstattoperationen  
+- visuelle Grunddarstellung des Graphen  
 
-Ergebnis:  
-Das System wird interdisziplinär.
-
----
-
-## Phase 7 — Planetary Infrastructure (Jahr 4–5)
-**Ziel:** Wissen als globale Ressource.
-
-- weltweite Mirrors der Datenbank  
-- Standardisierung mit Universitäten  
-- MUNDUS als Forschungslayer im Internet  
-- Open Hardware & Open Science Integration  
-- globale Community mit Millionen Beiträgen  
-- Sandbox 3.0: vollständige System-Simulationen
-
-Ergebnis:  
-Ein neuer öffentlicher Wissensraum für die Menschheit.
+Ergebnis:
+Ein stabiler, zuverlässig navigierbarer technischer Wissensgraph.
 
 ---
 
-## TL;DR
-Genesis → Knowledge Core → Graph → Sandbox → Global → Expansion → Planetary
+# Phase 4 — Werkstatt v1
 
-MUNDUS LABS wächst von einer Idee  
-zur offenen, dauerhaften Forschungsinfrastruktur der Welt.
+Ziele:
+- Steine inspizieren  
+- Beziehungen visualisieren  
+- Funktionsketten hervorheben  
+- Systeme analysieren (nicht generieren)  
+- Alternativen anzeigen  
+- Konflikte und Abhängigkeiten sichtbar machen  
+
+Ergebnis:
+Die Werkstatt wird der zentrale Arbeitsraum für Nutzer.
+
+---
+
+# Phase 5 — Sandbox v1
+
+Ziele:
+- deterministische Analyseengine  
+- Kompatibilitätsprüfung  
+- Alternativensuche  
+- Pfadanalyse  
+- Lückenanalyse  
+- systematische Vergleichsansichten  
+
+Ergebnis:
+Die Sandbox unterstützt systematisches, nicht-spekulatives Denken über Technik.
+
+---
+
+# Phase 6 — HRM v2 (Lernende Schicht)
+
+Ziele:
+- Mustererkennung im Nutzerverhalten  
+- Verstärkung konsistenter Korrekturen  
+- Relevanzgewichtung  
+- Priorisierung von Alternativen  
+- globales anonymisiertes Lernmodell  
+
+Ergebnis:
+MUNDUS wird adaptiver, ohne jemals autonom oder generativ zu werden.
+
+---
+
+# Phase 7 — Simulation Layer (späterer Ausbau)
+
+Ziele:
+- einfache physikalische Simulationen  
+- Material- und Kraftmodelle  
+- Funktionsketten-Validierung  
+- Fehler- und Constraintanalyse  
+
+Ergebnis:
+Technische Systeme können tiefergehend geprüft werden.
+
+---
+
+# Phase 8 — Erweiterte Werkstatt & Kollaboration
+
+Ziele:
+- Multi-Perspektiven-Ansichten  
+- Versionsvergleiche  
+- Team-Workflows  
+- Peer-Review-System für Steine  
+- Kommentarsystem  
+- Validierungs-Queues  
+
+Ergebnis:
+Technisches Wissen wird gemeinschaftlich gepflegt.
+
+---
+
+# Phase 9 — Globaler Wissensraum
+
+Ziele:
+- öffentliche API für Steine & Graph  
+- Import/Export definierter Datenformate  
+- thematische Technologie-Karten  
+- Interoperabilität mit Forschung und Bildung  
+
+Ergebnis:
+MUNDUS wird ein offenes technisches Referenzsystem.
+
+---
+
+# Phase 10 — Ökosystem & Erweiterungen
+
+Ziele:
+- Plugins für Fachdisziplinen  
+- Werkstatt-Erweiterungen  
+- Organisations- und Forschungsintegration  
+- Tools für Unternehmen (private Graph-Erweiterung)  
+
+Ergebnis:
+MUNDUS wird langfristig zu einer stabilen Infrastruktur für technisches Wissen.
+
+---
+
+# TL;DR
+
+Genesis → MVM → stabiler Graph → Werkstatt → Sandbox → HRM → Simulation → Kollaboration → Globaler Wissensraum → Erweiterbares Ökosystem
+
+Jede Phase baut logisch und deterministisch auf der vorherigen auf.  
+Keine Autonomie, keine Spekulation, keine Automatik.  
+Nur Struktur, Klarheit und technische Präzision.
+

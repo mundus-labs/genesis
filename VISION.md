@@ -1,63 +1,109 @@
-🌍 MUNDUS LABS — Vision
-Eine offene Welt des Wissens, der Technik und der menschlichen Erfindungskraft
+# MUNDUS LAB — VISION
 
-MUNDUS LABS ist die Idee einer Welt, in der Wissen nicht mehr begrenzt, verschlossen
-oder institutionalisiert bleibt, sondern frei zirkuliert wie ein Element der Natur.
+Die Vision von MUNDUS ist der Aufbau eines offenen, strukturierten und technisch präzisen Systems,  
+das Menschen hilft, Technik besser zu verstehen, zu analysieren und weiterzuentwickeln.  
+MUNDUS ist kein kreatives KI-System, sondern eine Infrastruktur für technische Klarheit.
 
-Wir glauben:
-Wissen ist kein Eigentum. Wissen ist ein Ursprung.
-Und jeder Ursprung gehört allen Menschen.
+---
 
-Die Kernvision
-1. Wissen wird modular
+# 1. Klarheit über Technik
 
-Alle menschlichen Ideen, Technologien und Erfindungen werden in klar definierte
-Bausteine zerlegt – wie Atome, aus denen sich neue Strukturen formen lassen.
+Technisches Wissen soll in kleinste, eindeutige Einheiten zerlegt werden – sogenannte **Steine**.  
+Jeder Stein beschreibt genau eine technische Aussage.  
+Durch diese Struktur entsteht ein neutraler, nachvollziehbarer Wissensraum.
 
-2. Technologie wird kombinierbar
+---
 
-Diese Bausteine können neu zusammengesetzt werden, sodass neue Erfindungen entstehen –
-nicht durch Besitz, sondern durch Verständnis.
+# 2. Wissen wird strukturiert, nicht interpretiert
 
-3. Patente werden zu Puzzleteilen
+MUNDUS setzt auf deterministische Zerlegung, Validierung und Vernetzung:
 
-Patentwissen wird nicht zerstört, sondern in neutraler Form rekonstruiert:
-als offene Wissensmodule, die jeder Mensch erforschen, erweitern und neu kombinieren kann.
+- keine Spekulation  
+- keine autonome Bedeutungsfindung  
+- keine kreativen Generierungen  
+- keine Interpretation durch KI  
 
-4. Erfindung wird ein öffentlicher Prozess
+Der Wissensgraph zeigt technische Beziehungen, nicht Fantasie oder Vermutung.
 
-Menschen, Entwickler:innen, Kinder, Forschende, Lernende –
-alle können in einer globalen Sandbox spielen, experimentieren und erschaffen.
+---
 
-5. Eine Welt lernt gemeinsam
+# 3. Technik wird analysierbar
 
-Wissen wächst nicht mehr linear, sondern exponentiell –
-durch kollektive Kreativität statt individuelle Abschottung.
+Durch den Wissensgraph und die Sandbox können Nutzer:
 
-Warum MUNDUS?
+- technische Systeme zerlegen  
+- Alternativen erkennen  
+- Abhängigkeiten verstehen  
+- Konflikte identifizieren  
+- Funktionsketten sichtbar machen  
 
-Mundus bedeutet im Lateinischen „Welt“.
-MUNDUS LABS ist ein Labor für die Welt –
-ein Ort, an dem jeder Mensch Zugang zu Wissen erhält
-und damit zu seiner eigenen Fähigkeit, Neues hervorzubringen.
+Die Sandbox analysiert – sie erzeugt nicht.
 
-Das Ziel von MUNDUS LABS
+---
 
-Die größte offene Wissensplattform der menschlichen Geschichte aufzubauen
+# 4. Menschen steuern das System
 
-Eine globale Infrastruktur für Innovation ohne Barrieren zu schaffen
+MUNDUS ist ein Werkzeug, kein autonomes System.
 
-Die Zukunft der Erfindung in die Hände aller Menschen zurückzugeben
+Menschen:
 
-Ein Netzwerk aus offenen Laboren, Universitäten, Entwickler:innen und Forschenden zu verbinden
+- validieren Steine  
+- entscheiden über Beziehungen  
+- prüfen Logik  
+- korrigieren Fehler  
+- geben HRM-Lernsignale  
 
-Neue Technologien hervorzubringen, die sonst nie entstanden wären
+HRM unterstützt nur die Priorisierung – nicht den Inhalt.
 
-Die Mission
+---
 
-Wir wollen eine Welt ermöglichen, in der jeder Mensch sagen kann:
+# 5. Offenheit ohne Ideologie
 
-„Ich kann verstehen. Ich kann erschaffen. Ich kann beitragen.“
+MUNDUS folgt folgenden Prinzipien:
 
-Denn Wissen ist ein Ursprung –
-und dieser Ursprung gehört uns allen.
+- offene Formate  
+- transparente Regeln  
+- öffentlich nachvollziehbare Entscheidungen  
+- keine politische, ethische oder wirtschaftliche Agenda  
+- kein Machtzentrum, keine Hidden-APIs  
+
+Offenheit dient der technischen Überprüfbarkeit, nicht der Weltanschauung.
+
+---
+
+# 6. Globale Nutzbarkeit
+
+MUNDUS soll für alle Menschen nutzbar sein, unabhängig von:
+
+- Ausbildung  
+- Sprache  
+- Herkunft  
+- finanziellen Mitteln  
+
+Nicht, um „Erfindungskraft der Menschheit zu befreien“,  
+sondern um technische **Verständlichkeit** als Ressource verfügbar zu machen.
+
+---
+
+# 7. Langfristiges Ziel
+
+MUNDUS soll eine stabile, langfristige Infrastruktur werden, die:
+
+- technisches Wissen strukturiert darstellt  
+- Zusammenhänge sichtbar macht  
+- Forschung und Lehre unterstützt  
+- Innovation vorbereitet durch Klarheit, nicht Kreativität  
+- Systeme analysierbar macht  
+
+MUNDUS ist ein Werkzeug zur Orientierung in der Technik –  
+ein systematischer Zugang zu technischem Wissen.
+
+---
+
+# TL;DR
+
+MUNDUS schafft Struktur, nicht Erfindungen.  
+Es erklärt, statt zu interpretieren.  
+Es unterstützt, statt zu generieren.  
+Es macht Technik sichtbar, nachvollziehbar und verständlich.
+

@@ -1,130 +1,161 @@
-# 🏛️ GOVERNANCE — MUNDUS LABS
+# MUNDUS LAB — GOVERNANCE
 
-## Zweck der Governance
-Governance stellt sicher, dass MUNDUS LABS dauerhaft offen, transparent, neutral und menschlich bleibt.  
-Sie definiert die Rollen, Rechte und Verantwortlichkeiten aller Beteiligten und schützt das Projekt vor Machtmissbrauch, Verzerrung und kommerzieller Vereinnahmung.
+Dieses Dokument beschreibt die organisatorischen Grundstrukturen von MUNDUS.  
+Ziel der Governance ist es, Offenheit, Transparenz, technische Integrität und langfristige Stabilität des Systems sicherzustellen.
+
+Governance regelt:
+- Rollen und Verantwortlichkeiten  
+- Entscheidungsprozesse  
+- Schutzmechanismen für das Kernsystem  
+- Umgang mit Konflikten  
+- Beiträge und deren Qualitätssicherung  
 
 ---
 
-## 1. Prinzip: Offenheit & Transparenz
-Alle Entscheidungen, Diskussionen, Abstimmungen und Richtlinien sind öffentlich einsehbar.  
-Keine Closed-Door-Meetings.  
-Keine versteckten Absprachen.
+# 1. Grundprinzipien
+
+Die Governance basiert auf folgenden fundamentalen Regeln:
+
+- **Transparenz:** Entscheidungen, Diskussionen und Richtlinien sind offen einsehbar.  
+- **Neutralität:** Keine politischen, ideologischen oder wirtschaftlichen Interessen.  
+- **Technische Klarheit:** Entscheidungen müssen logisch und begründet sein.  
+- **Offenheit:** Beiträge aller Personen sind willkommen, sofern sie den Standards entsprechen.  
+- **Schutz des Kerns:** Steinformat, Graphregeln, Sandbox-Deterministik und HRM-Struktur sind unveränderlich ohne formelle Verfahren.
+
+Diese Prinzipien entsprechen den Regeln in `CONTRIBUTION_STANDARDS.md` und `DECISION_RULES.md`.
 
 ---
 
-## 2. Rollen in MUNDUS LABS
+# 2. Rollen im Projekt
 
-### **Founder**
-- Ursprung und Vision definiert  
-- langfristige Werte und Prinzipien geschützt  
-- letzte Instanz bei fundamentalen Strukturfragen  
+## 2.1 Founder
+- hat das Projekt initiiert  
+- definiert die ursprüngliche Vision  
+- bewahrt den historischen Zweck von MUNDUS  
+- **keine Sonderrechte** über technische Entscheidungen
 
-### **Core Maintainers**
+## 2.2 Core Maintainers
 - pflegen die zentralen Repositories  
-- koordinieren technische Entscheidungen  
-- stimmen über wesentliche Änderungen ab  
+- prüfen Pull Requests  
+- stellen Kompatibilität mit Kernregeln sicher  
+- führen technische Reviews durch  
+- dokumentieren Entscheidungen
 
-### **Contributors**
-- jede Person, die Beiträge liefert  
-- gleichwertig anerkannt  
-- Stimme in offenen Abstimmungen  
+## 2.3 Contributors
+- erstellen Roh-Steine  
+- validieren Steine  
+- verbessern Dokumentation  
+- melden Fehler oder Inkonsistenzen  
+- schlagen Beziehungen oder Korrekturen vor
 
-### **Reviewers**
-- prüfen Module, Graph-Beziehungen, Dokumente  
-- sichern Qualität, Konsistenz und wissenschaftliche Integrität  
+Contributors haben **gleiche Rechte bei technischen Vorschlägen**,  
+sofern diese valide sind.
 
-### **Community**
-- jede Person weltweit  
-- kann Ideen einreichen  
-- kann Sandbox-Systeme bauen  
-- kann Vorschläge, Analysen, neue Module beitragen  
-
----
-
-## 3. Entscheidungsprozesse
-
-### **Kleine Entscheidungen**
-(z. B. einzelne Module, kleine Dokumentänderungen)
-- werden von Maintainers per einfachem Review angenommen
-
-### **Mittlere Entscheidungen**
-(z. B. neue Toolchains, Änderungen an MMF, Graph-APIs)
-- erfordern Abstimmung der Maintainers  
-- Entscheidung mit ≥ 60% Zustimmung
-
-### **Große Entscheidungen**
-(z. B. Ethik, Offenheitsprinzipien, Governance selbst)
-- öffentliche Diskussion  
-- weltweite Community-Abstimmung  
-- finaler Review durch Founder  
+## 2.4 Reviewers
+- prüfen Steinqualität  
+- prüfen Beziehungen  
+- sichern logische Konsistenz  
+- bewerten technische Argumente  
+- überwachen Regelkonformität
 
 ---
 
-## 4. Schutz vor Machtkonzentration
+# 3. Entscheidungsprozesse
 
-- Kein einzelnes Unternehmen darf Kontrolle erlangen  
-- Keine bezahlten Einflussgruppen  
-- Entscheidungen beruhen auf Qualität, nicht Status  
-- Dokumentation schützt vor „Wissensmonopolen“  
-- Forks ausdrücklich erlaubt, wenn Transparenz verletzt wird  
+Alle Entscheidungen folgen strikt `DECISION_RULES.md`.
 
----
+## 3.1 Kleine Entscheidungen
+(z. B. Klarheitskorrekturen, Dokumentation, Roh-Steine)
+- durch Maintainers per Review  
+- kein Abstimmungsprozess
 
-## 5. Community Rights
+## 3.2 Mittlere Entscheidungen
+(z. B. Änderungen an Beziehungen, Formatdetails, neue Werkstattfunktionen)
+- Maintainer-Mehrheit genügt  
+- Entscheidung dokumentieren
 
-Jede Person weltweit hat das Recht:
+## 3.3 Große Entscheidungen
+(z. B. Änderungen am Kern: Steinformat, Beziehungstypen, Graphstruktur)
+- formelles Review  
+- offene Diskussion  
+- technische Begründungspflicht  
+- dokumentierte Entscheidung  
+- Maintainer-Konsens erforderlich
 
-- Wissen einzusehen  
-- Module vorzuschlagen  
-- Systeme in der Sandbox zu bauen  
-- Fehler zu melden  
-- Prozesse zu kritisieren  
-- Entscheidungen nachzuvollziehen  
-- Alternativen zu entwickeln  
-
-MUNDUS LABS gehört allen — und niemandem.
-
----
-
-## 6. Ethikrat (Advisory Circle)
-
-Eine optionale, laterale Struktur aus:
-
-- Wissenschaftler:innen  
-- Entwickler:innen  
-- Philosoph:innen  
-- Educators  
-- Open-Source-Vertreter:innen  
-
-Die Rolle:
-
-- moralische Risikoabschätzung  
-- Einschätzung sozialer Auswirkungen  
-- Empfehlungen an Maintainers und Founder  
-
-(Wichtig: keine Entscheidungsgewalt)
+Wichtig:  
+Keine Entscheidung darf **MMF**, **Graphregeln**, **Sandbox-Deterministik** oder **HRM-Struktur** verletzen  
+ohne vollständigen MAJOR-Versionierungsprozess.
 
 ---
 
-## 7. Konfliktlösung
+# 4. Schutz vor Machtkonzentration
 
-- Öffentliche Diskussion  
-- Moderation durch Maintainers  
-- Transparente Argumentation  
-- Finale Entscheidung durch gewählten Kreis oder Community  
+- Keine Rolle darf unkontrolliert Entscheidungen treffen.  
+- Maintainers müssen Entscheidungen dokumentieren.  
+- Änderungen am Kern erfordern Konsens und öffentliche Transparenz.  
+- Forks sind erlaubt, wenn Transparenz oder Regelkonformität verletzt wird.  
+- Technische Argumente haben Vorrang vor persönlichen Meinungen.
 
----
-
-## 8. Anpassbarkeit der Governance
-MUNDUS LABS ist ein lebendes System.  
-Auch Governance kann sich entwickeln —  
-aber nur mit Transparenz und kollektiver Zustimmung.
+**MUNDUS ist ein System, kein Besitz.**
 
 ---
 
-## TL;DR
-Founder setzt Vision → Maintainers koordinieren → Community gestaltet mit  
-Alles öffentlich. Alles offen. Keine Machtzentren.
+# 5. Communityrechte
 
-Governance schützt die Freiheit von Wissen.
+Jede Person darf:
+
+- Vorschläge einreichen  
+- Roh-Steine in Research erzeugen  
+- Validierungen durchführen  
+- Fehler melden  
+- Diskussionen starten  
+- auf Materialien im Repo zugreifen  
+
+Die Community darf **nicht**:
+
+- autonom neue Regeln definieren  
+- Beziehungstypen erweitern  
+- Kernformate ändern  
+- spekulative Inhalte in den Graph einfügen  
+
+---
+
+# 6. Konfliktlösung
+
+Konflikte werden rein technisch behandelt:
+
+1. Problem offen benennen  
+2. technische Argumente darstellen  
+3. relevante Kernregeln prüfen  
+4. Maintainers moderieren  
+5. Entscheidung gemäß `DECISION_RULES.md` treffen  
+6. Dokumentation im Governance-Ordner
+
+Es gibt **keine persönlichen, sozialen oder politischen** Kriterien.  
+Nur **Logik, Validität und Systemkompatibilität** entscheiden.
+
+---
+
+# 7. Weiterentwicklung der Governance
+
+Governance kann angepasst werden, wenn:
+
+- die Änderung transparent diskutiert wird  
+- keine Kernregeln verletzt werden  
+- die Änderung dokumentiert wird  
+- Maintainer-Konsens vorliegt
+
+Kernprinzipien bleiben unverändert, außer bei MAJOR-Version.
+
+---
+
+# TL;DR
+
+- Founder = Ursprung, kein Machtzentrum  
+- Maintainers = technische Stabilität  
+- Contributors = Wissensträger  
+- Entscheidungen = logisch und dokumentiert  
+- Kernstrukturen sind geschützt  
+- Community ist offen, aber regelgebunden  
+- MUNDUS gehört der Technik, nicht Personen
+

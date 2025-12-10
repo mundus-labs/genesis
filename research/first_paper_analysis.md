@@ -1,7 +1,7 @@
-# 📄 FIRST PAPER ANALYSIS — TEMPLATE
+# MUNDUS LAB — First Paper Analysis (Template)
 
-Diese Datei dient als Vorlage zur Analyse eines Patents, Papers oder technischen Dokuments.  
-Ziel ist es, technisches Wissen in Module, Prinzipien und Beziehungen zu zerlegen.
+Diese Datei dient als Vorlage für die Analyse eines Patents, Papers oder technischen Dokuments.  
+Ziel ist es, technische Inhalte in **Roh-Steine** zu zerlegen, gültige Beziehungen abzuleiten und neues Wissen in MUNDUS einzuspeisen.
 
 ---
 
@@ -11,77 +11,79 @@ Titel:
 Autor(en):  
 Jahr:  
 Typ: Patent / Paper / Bericht / Manual  
-Link / DOI / Patentnummer:  
+Patentnummer / DOI / Link:  
 
 Kurzbeschreibung der Quelle:
 
 ---
 
-## 2. Wichtige technische Elemente
+## 2. Identifikation technischer Aussagen
 
-Liste zentraler Konzepte, Mechanismen, Bauteile oder Verfahren:
+Liste zentraler technischer Aussagen, Mechanismen, Prinzipien oder Abhängigkeiten:
 
 -  
 -  
 -  
+
+Diese Aussagen werden im nächsten Schritt in **Roh-Steine** überführt.
 
 ---
 
-## 3. Zerlegung in Module (MMF)
+## 3. Zerlegung in Roh-Steine (MMF-konform)
 
-Für jedes identifizierte Element wird ein Modul erzeugt.
+Für jede identifizierte Aussage entsteht ein Roh-Stein im MUNDUS-MMF-Format:
 
-Modulformat (MMF) – bitte jedes Feld ausfüllen:
+**Roh-Stein (Template):**  
+- **title:**  
+- **type (vermutet):** funktion / prinzip / mechanismus / input / output / constraint / dependency / combinability  
+- **summary:**  
+- **details:**  
+- **requirements:**  
+- **results:**  
+- **relations (vorläufig):**  
+- **source:**  
+- **version:** 0.1.0  
 
-ID:  
-Kategorie:  
-Funktion:  
-Prinzip:  
-Inputs:  
-Outputs:  
-Dependencies:  
-Beschreibung:  
-Beispiele:  
-Quellen:  
+Neue Roh-Steine aus dieser Analyse:
 
-Neue Module aus dieser Analyse:
+- stein_001:  
+- stein_002:  
+- stein_003:  
 
-- modul_001:  
-- modul_002:  
-- modul_003:  
+Hinweis:  
+Diese Steine müssen im Validierungsprozess **manuell korrigiert und bestätigt** werden.
 
 ---
 
 ## 4. Beziehungen (Graph)
 
-Beziehungstypen:
+Erlaubte Beziehungstypen:
 
-- funktioniert mit  
-- benötigt  
-- ersetzt  
-- erweitert  
-- basiert auf  
-- widerspricht  
+- **nutzt**  
+- **basiert_auf**  
+- **teil_von**  
+- **alternative_zu**  
+- **erweitert**  
+- **ersetzt**  
+- **verlangt**  
+- **erzeugt**
 
-Graph-Beziehungen aus dieser Analyse:
+Vorläufige Graph-Beziehungen aus dieser Analyse:
 
-- modul_001 benötigt modul_002  
-- modul_003 erweitert modul_001  
+- stein_001 basiert_auf stein_002  
+- stein_003 teil_von stein_001  
+- stein_002 verlangt stein_004  
 - …
 
----
-
-## 5. Erkenntnisse
-
-Kurze Zusammenfassung:
-
--  
--  
--  
+Diese Beziehungen werden erst gültig, wenn:
+1. die Steine validiert wurden, und  
+2. die Beziehungen logisch geprüft sind.
 
 ---
 
-## 6. Potenzielle neue Kombinationen
+## 5. Erkenntnisse aus der Quelle
+
+Kurze Zusammenfassung der wichtigsten technischen Erkenntnisse:
 
 -  
 -  
@@ -89,14 +91,42 @@ Kurze Zusammenfassung:
 
 ---
 
-## 7. Offene Fragen / Weiterführende Arbeit
+## 6. Potenzielle technische Lücken / Ergänzungen
+
+Die Analyse kann zeigen, dass im System bestimmte Steine fehlen:
+
+- fehlender Mechanismus:  
+- fehlendes Prinzip:  
+- fehlende Funktion:  
+- fehlende Abhängigkeit:  
+
+Diese Lücken sind Hinweise für neue Steine oder Ergänzungen.
+
+---
+
+## 7. Mögliche Kombinationen (Analyse, keine Generierung)
+
+Die Sandbox darf nur analysieren, niemals erzeugen.
+
+Mögliche Kombinationen zur späteren Werkstattprüfung:
 
 -  
 -  
 -  
+
+---
+
+## 8. Offene Fragen / Weiterführende Arbeit
+
+- Welche Steine müssen präziser werden?  
+- Welche Beziehungen sind unsicher?  
+- Welche Aussagen müssen weiter zerlegt werden?  
+- Benötigen wir zusätzliche Quellen?  
 
 ---
 
 ## TL;DR
 
-Quelle lesen → technische Elemente extrahieren → Module erzeugen → Graph-Beziehungen ableiten → neue Technik verstehen.
+Quelle lesen → technische Aussagen extrahieren → Roh-Steine erzeugen →  
+vorläufige Beziehungen ableiten → Lücken erkennen → Validierung →  
+Integration in den Wissensgraph.

@@ -1,21 +1,87 @@
-MIT License
+# MIT License
 
 Copyright (c) 2025 mundus-labs
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
+Permission is hereby granted, free of charge, to any person obtaining a copy  
+of this software and associated documentation files (the "Software"), to deal  
+in the Software without restriction, including without limitation the rights  
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
+copies of the Software, and to permit persons to whom the Software is  
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
+The above copyright notice and this permission notice shall be included in all  
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE  
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER  
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE  
 SOFTWARE.
+
+---
+
+# MUNDUS LABS LICENSE SUPPLEMENT (non-legal explanatory section)
+
+This supplemental section clarifies how the MIT License applies to the  
+MUNDUS LABS knowledge system.  
+It is an explanatory appendix and does not modify the MIT license terms.
+
+## 1. Contributions to the Knowledge System
+All contributions (Steine, Beziehungen, Dokumentation, Research) must:
+- remain openly accessible  
+- remain neutral and non-proprietary  
+- follow the MUNDUS core rules  
+
+Contributors retain rights to their text contributions,  
+but grant mundus-labs a perpetual right to:
+- use  
+- store  
+- process  
+- display  
+- and redistribute  
+
+them as part of the open knowledge graph.
+
+## 2. No copyright on structured technical knowledge
+Technical facts, principles, mechanisms, and functional descriptions  
+are **not copyrightable**.  
+Only:
+- formatting  
+- structure  
+- arrangement  
+- documentation  
+- the software  
+are covered by the MIT License.
+
+## 3. External documents
+Uploaded or referenced patents, papers, or manuals  
+remain under their own copyright.  
+MUNDUS does **not** relicense external sources.  
+Only the transformed structure (Roh-Steine, Validierte Steine)  
+belongs to the open system.
+
+## 4. No liability for technical interpretation
+MUNDUS LABS provides:
+- technical decomposition tools  
+- analysis tools  
+- knowledge structure  
+
+It does **not** guarantee:
+- correctness of external content  
+- correctness of contributed stones  
+- engineering safety  
+- legal viability of derived interpretations  
+
+Users are responsible for validating technical decisions  
+in real-world contexts.
+
+## 5. No claim to inventions
+MUNDUS LABS:
+- does not generate inventions  
+- does not claim ownership of user combinations  
+- provides only analytical tools  
+
+All creativity remains with the human user.
+

@@ -1,35 +1,66 @@
-# FOUNDERS
+# MUNDUS LAB — FOUNDERS
 
-## Ursprung von MUNDUS LABS
-
-MUNDUS LABS wurde gegründet, um Wissen, Technologie und Erfindung  
-für alle Menschen zugänglich zu machen – offen, modular, frei kombinierbar  
-und ohne materielle oder institutionelle Barrieren.
-
-Es ist ein Labor für die Welt:  
-Eine Sandbox, in der jeder Mensch lernen, entdecken, erfinden und beitragen kann.
+Dieses Dokument dient als historische Referenz für die Entstehung des MUNDUS LAB Projekts.  
+Es hält fest, wer die Initiative gestartet hat und welche organisatorischen Grundlagen zu Beginn bestanden.
 
 ---
 
-## Gründer
+## 1. Ursprung von MUNDUS LAB
+
+MUNDUS LAB wurde gegründet, um technisches Wissen in eine klar strukturierte, frei kombinierbare und offen zugängliche Form zu überführen.  
+Ziel ist ein System, das:
+
+- Wissen zerlegt  
+- Zusammenhänge sichtbar macht  
+- technische Klarheit schafft  
+- Innovation ermöglicht  
+
+Der Ursprung des Projekts ist die Idee einer globalen, präzisen, modularen technischen Wissensbasis.
+
+---
+
+## 2. Gründer
 
 **Jean-Jacques Emil Martin (Emil)**  
-Initiiert das Projekt am Ursprungstag der Genesis.  
-Visionär und Architekt der Idee einer offenen Wissens- und Erfinderwelt.
+Initiator des Projekts und Auslöser der Genesis-Phase.  
+Verantwortlich für:
+
+- die Grundidee einer offenen technischen Wissensplattform  
+- die Definition des modularen Ansatzes  
+- den Aufbau der Struktur, die MUNDUS trägt  
+- die erste Formulierung des Ziels: Wissen mechanisch verstehbar zu machen
+
+Diese Datei dokumentiert nur den historischen Ursprung, nicht Entscheidungsrechte oder Governance-Strukturen.
 
 ---
 
-## Genesis-Konto
+## 3. Organisations- und Kontaktinformationen (Genesis-Phase)
 
 - **E-Mail:** genesis@mundus.dev  
-- **Domains:** mundus.ch, mundus.dev  
-- **Organisation:** github.com/mundus-labs
+- **Domains:** mundus.dev, mundus.ch  
+- **Organisation:** https://github.com/mundus-labs  
+- **Repository:** https://github.com/mundus-labs/genesis  
+
+Diese Angaben dokumentieren den Ausgangspunkt des Projekts und können sich im Laufe der Entwicklung ändern.
 
 ---
 
-## Bedeutung dieser Datei
+## 4. Zweck dieser Datei
 
-FOUNDERS.md dient als historische Referenz für Ursprung und Verantwortung:  
-Sie dokumentiert, wer die Vision entworfen hat,  
-und stellt sicher, dass der Ursprung von MUNDUS LABS  
-auch in Zukunft nachvollziehbar bleibt.
+FOUNDERS.md dient ausschließlich als:
+
+- historische Dokumentation des Ursprungs  
+- Referenz für spätere Governance-Entscheidungen  
+- Nachweis der Initiierungsphase  
+- Vermeidung von Unklarheit über Beginn und Motivation des Projekts  
+
+Es beschreibt **den Anfang**, nicht den zukünftigen Zustand.
+
+---
+
+## TL;DR
+
+Historie:  
+Emil begann MUNDUS LAB, definierte die Grundidee und legte die Genesis-Struktur an.  
+Diese Datei hält nur den Ursprung fest – neutral, dokumentarisch und zukunftssicher.
+

@@ -1,103 +1,133 @@
-# 🌱 PRINCIPLES — MUNDUS LABS
+# MUNDUS LAB — PRINCIPLES
 
-## Warum Prinzipien?
-Prinzipien sind das Rückgrat von MUNDUS LABS.  
-Sie definieren, wie wir denken, wie wir arbeiten und wie wir gemeinsam Wissen formen.  
-Sie sind zeitlos, technologieunabhängig und bilden das Fundament jeder Entscheidung.
-
----
-
-## 1. Wissen gehört allen
-Wissen ist kein Besitz.  
-Es ist ein Ursprung, der allen Menschen offenstehen muss.  
-MUNDUS LABS ist vollständig offen, transparent und frei zugänglich.
+Dieses Dokument beschreibt die unveränderlichen Grundprinzipien von MUNDUS LAB.  
+Sie bilden das Fundament für alle technischen Entscheidungen, Prozesse und Strukturen im System.  
+Alle Komponenten von MUNDUS müssen mit diesen Prinzipien übereinstimmen.
 
 ---
 
-## 2. Modularität vor Komplexität
-Alles Wissen wird in kleinste, klar definierte Bausteine zerlegt.  
-Komplexität entsteht nicht durch Geheimhaltung, sondern durch Zusammenspiel.  
-Ein gutes Modul ist:
+# 1. Struktur vor Interpretation
 
-- verständlich  
-- kombinierbar  
-- austauschbar  
-- erweiterbar  
+Technisches Wissen wird in kleinste, atomare, eindeutig definierte Steine zerlegt.  
+Jede Aussage muss präzise, überprüfbar und frei von Mehrdeutigkeit sein.
+
+Das Ziel ist technische Klarheit – nicht kreative Interpretation.
 
 ---
 
-## 3. Offenheit schafft Innovation
-Keine Paywalls.  
-Keine Blackbox.  
-Keine geschlossenen Systeme.
+# 2. Validierung vor Automatisierung
 
-Innovation geschieht, wenn Wissen frei fließen darf — zwischen Menschen, Disziplinen und Generationen.
+MUNDUS generiert kein Wissen autonom.  
+Menschen validieren Steine, korrigieren Kategorien und prüfen Beziehungen.
 
----
-
-## 4. Mensch und Maschine kooperieren
-Technologie ist ein Werkzeug, kein Ersatz für Menschen.  
-KI unterstützt uns, aber sie **führt** nicht.  
-Bewertung, Sinn, Ethik und Kreativität bleiben menschlich.
-
-Das Human–Reward–Model (HRM) ist zentral:  
-Menschen lenken, formen und bewerten technische Entwicklungen.
+Automatisierte Schritte dürfen nur vorbereiten – nie entscheiden.
 
 ---
 
-## 5. Respekt vor Ursprung und Beitrag
-Alle Beiträge — ob klein oder groß — werden dokumentiert, gewürdigt und transparent festgehalten.
+# 3. Determinismus vor Spekulation
 
-Kein Code verschwindet.  
-Keine Idee geht verloren.  
-Kein Mensch bleibt unsichtbar.
+Alle Mechanismen von MUNDUS (Graph, Sandbox, HRM) arbeiten deterministisch.  
+Keine Komponente darf spekulative Bedeutungen schaffen oder interpretieren.
 
----
-
-## 6. Neutralität und Wissenschaftlichkeit
-MUNDUS LABS ist frei von politischen, religiösen und wirtschaftlichen Agenden.  
-Es dient allein der Entdeckung, Erklärung und Weiterentwicklung von Wissen.
+Technische Aussagen müssen logisch begründet sein.
 
 ---
 
-## 7. Sicherheit durch Offenheit
-Offene Systeme sind sicherer als geschlossene.  
-Transparenz erzeugt Vertrauen.  
-Kollektive Überprüfung schützt vor Fehlern.
+# 4. Offenes System, keine Barrieren
+
+Der Zugriff auf:
+- Steinformate  
+- Graphregeln  
+- Dokumentation  
+- Validierungsprozesse  
+
+ist offen und transparent.
+
+Keine Hidden-APIs, keine Blackbox-Entscheidungen.
 
 ---
 
-## 8. Globale Zugänglichkeit
-Jeder Mensch soll teilnehmen können:
+# 5. Neutralität vor Ideologie
 
-- ohne Geld  
-- ohne Ausbildungsvoraussetzungen  
-- ohne institutionelle Hürden  
-- unabhängig von Ort und Sprache  
+MUNDUS ist frei von:
+- politischen Positionen  
+- religiösen Wertungen  
+- wirtschaftlichen Interessen  
+- persönlichen Agenden  
 
-Wissen ist *universell*.
-
----
-
-## 9. Evolution statt Perfektion
-Wir bauen nicht das perfekte System.  
-Wir bauen ein System, das sich selbst verbessert, erweitert, anpasst.
-
-MUNDUS LABS ist lebendig — nie abgeschlossen.
+Nur technische Logik zählt.
 
 ---
 
-## 10. Verantwortung vor Wirkung
-Neue Technologie darf Menschen stärken, nicht schaden.
+# 6. Mensch steuert, System unterstützt
 
-Wir prüfen jede Kombination, jede Erfindung, jedes Modul auf:
+Menschen treffen Entscheidungen.  
+MUNDUS unterstützt durch:
+- Zerlegung  
+- Analyse  
+- Strukturierung  
+- Alternativensuche  
 
-- ethische Sicherheit  
-- gesellschaftliche Folgen  
-- langfristige Verantwortung  
+HRM verstärkt menschliches Nutzungsverhalten – ersetzt es aber nie.
 
 ---
 
-## Zusammenfassung
-MUNDUS LABS basiert auf Klarheit, Offenheit, Menschlichkeit und wissenschaftlicher Neugier.  
-Diese Prinzipien formen die Grundlage für alles, was wir tun — heute, morgen und in der Zukunft.
+# 7. Konsistenz im gesamten System
+
+Steine, Beziehungen, Dokumentation und Architektur müssen konsistent bleiben.
+
+Keine Ausnahmen.  
+Keine Sonderformate.  
+Keine abweichenden Beziehungstypen.  
+Keine inkonsistenten Interpretationen.
+
+---
+
+# 8. Transparenz aller Entscheidungen
+
+Alle Änderungen an:
+- Steinformat  
+- Graphregeln  
+- Architektur  
+- Dokumentation  
+
+müssen öffentlich, nachvollziehbar und begründet sein.
+
+Es gibt keine versteckten Richtungswechsel.
+
+---
+
+# 9. Stabilität vor Geschwindigkeit
+
+Eine langsame, saubere Veränderung ist besser als eine schnelle, chaotische.  
+Qualität hat Vorrang vor Wachstum.
+
+---
+
+# 10. Verantwortung im Umgang mit Wissen
+
+MUNDUS erzeugt Klarheit – keine Konstruktionen, keine Erfindungen, keine gefährlichen Bauanleitungen.
+
+Nutzer sind verantwortlich für:
+- die technische Anwendung  
+- reale Experimente  
+- sicherheitsrelevante Entscheidungen  
+
+Das System bleibt strikt erklärend.
+
+---
+
+# Zusammenfassung
+
+MUNDUS basiert auf:
+- Klarheit  
+- Struktur  
+- Neutralität  
+- Validierung  
+- Determinismus  
+- Transparenz  
+- Stabilität  
+- menschlicher Verantwortung  
+
+Diese Prinzipien sind dauerhaft gültig und bilden die Grundlage für alle Entscheidungen und Entwicklungen im Projekt.
+
